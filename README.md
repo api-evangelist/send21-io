@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-send21-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://send21.io/
+Send21 provides a non-custodial crypto payment link service and API for people and AI agents. Users can create pay links or invoices priced in various cryptocurrencies, including BTC, USDC, USDT, EURC, SOL, and ETH, and pay directly from their wallets via on-chain or Lightning. The platform emphasizes security, stating that it never holds users' money or private keys, and offers documentation, pricing, and demo pages for developers and businesses.
+
+**Areas:** Company · Payments · Crypto · API · Non-custodial · AI
+
+## send21-io on APIs.io
+
+Everything profiled for send21-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/send21-io/](https://apis.io/providers/send21-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [send21-io Account API](https://apis.io/apis/send21-io/send21-io-account-api/) — The Account API from send21-io — 2 operation(s) for account.
+- [send21-io Auth API](https://apis.io/apis/send21-io/send21-io-auth-api/) — The Auth API from send21-io — 26 operation(s) for auth.
+- [send21-io Checkout API](https://apis.io/apis/send21-io/send21-io-checkout-api/) — The Checkout API from send21-io — 3 operation(s) for checkout.
+- [send21-io Demo API](https://apis.io/apis/send21-io/send21-io-demo-api/) — The Demo API from send21-io — 3 operation(s) for demo.
+- [send21-io Drafts API](https://apis.io/apis/send21-io/send21-io-drafts-api/) — The Drafts API from send21-io — 13 operation(s) for drafts.
+- [send21-io Fees API](https://apis.io/apis/send21-io/send21-io-fees-api/) — The Fees API from send21-io — 3 operation(s) for fees.
+- [send21-io Rates API](https://apis.io/apis/send21-io/send21-io-rates-api/) — The Rates API from send21-io — 1 operation(s) for rates.
+- [send21-io Recurring Templates API](https://apis.io/apis/send21-io/send21-io-recurringtemplates-api/) — The RecurringTemplates API from send21-io — 4 operation(s) for recurringtemplates.
+- [send21-io Suggestions API](https://apis.io/apis/send21-io/send21-io-suggestions-api/) — The Suggestions API from send21-io — 1 operation(s) for suggestions.
+- [send21-io Webhooks API](https://apis.io/apis/send21-io/send21-io-webhooks-api/) — **send21 calls your server when a draft changes.** Register an endpoint with `POST /api/v1/webhooks` (scope `webhooks:manage`) and pick the events you want.…
+- [send21-io Address Book API](https://apis.io/apis/send21-io/send21-io-address-book-api/) — The Address Book API from send21-io — 2 operation(s) for address book.
+- [send21-io API Keys API](https://apis.io/apis/send21-io/send21-io-api-keys-api/) — The API Keys API from send21-io — 2 operation(s) for api keys.
+- [send21-io Payment Requests API](https://apis.io/apis/send21-io/send21-io-payment-requests-api/) — The Payment Requests API from send21-io — 3 operation(s) for payment requests.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Send21 Io Webhooks](https://apis.io/asyncapis/send21-io/send21-io-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Send21 Io Agentic Access](https://apis.io/agentic-access/send21-io/send21-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateDraftRequest](https://apis.io/schemas/send21-io/send21-io-create-draft-request/)
+- [DemoDraftResponse](https://apis.io/schemas/send21-io/send21-io-demo-draft-response/)
+- [DraftResponse](https://apis.io/schemas/send21-io/send21-io-draft-response/)
+- [FeeBreakdownResponse](https://apis.io/schemas/send21-io/send21-io-fee-breakdown-response/)
+- [PaymentRequestResponse](https://apis.io/schemas/send21-io/send21-io-payment-request-response/)
+- [QuoteInfo](https://apis.io/schemas/send21-io/send21-io-quote-info/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Send21 Io Context](https://apis.io/jsonld/send21-io/send21-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [send21-io API Rules](https://apis.io/rules/send21-io/send21-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Send21 Io Authentication](https://apis.io/security/send21-io/send21-io-authentication/)
+- [Send21 Io Domain Security](https://apis.io/security/send21-io/send21-io-domain-security/)
+- [Send21 Io Vulnerability Disclosure](https://apis.io/security/send21-io/send21-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Send21 Io Plans Pricing](https://apis.io/plans/send21-io/send21-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://send21.io/)
+- [Documentation](https://send21.io/docs)
+- [Getting started](https://send21.io/docs/quickstart)
+- [API reference](https://send21.io/swagger/v1/swagger.json)
+- [Pricing](https://send21.io/pricing)
+- [Support](https://send21.io/about)
+- [Terms of service](https://send21.io/terms)
+- [Privacy policy](https://send21.io/privacy)
+- [GitHub](https://github.com/send21io)
+
+## API Evangelist rating
+
+**Kin Score 56.9** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.9 |
+| Contract governance | 70.9 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 63.7 |
+
+**Agent readiness 54.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 25.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/send21-io/](https://apis.io/providers/send21-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for send21-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/send21-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
